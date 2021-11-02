@@ -1,0 +1,27 @@
+.filled {
+	fill: var(--primary);
+}
+
+.star {
+	margin-right: 5px;
+}
+
+.editable {
+	cursor: pointer;
+}
+
+.error svg {
+	stroke: var(--red);
+}
+
+.ratingWrapper {
+	position: relative;
+}
+
+.errorMessage {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+
+	color: var(--red);
+}
